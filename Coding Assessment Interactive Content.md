@@ -30,7 +30,7 @@
   - 첫 번째 <<<<FIXME>>>> → obj_meta.rect_params.width
   - 두 번째 <<<<FIXME>>>> → obj_bottom
   - 마지막 <<<<FIXME>>>> → tailgate
-  이 셀을 실행하면 Probe 함수가 정의됩니다.
+  이 셀을 실행하면 Probe 함수가 정의됩니다.<br>
 
 5. 이유는 모르겠으나 예시 속 정답 5.0을 입력하니 맞음.
 <img width="764" height="293" alt="image" src="https://github.com/user-attachments/assets/71cfaae7-93d9-416e-8f54-64b2798736de" />
