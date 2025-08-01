@@ -183,15 +183,15 @@ def run(input_file_path):
   이 셀을 실행하면 Probe 함수가 정의됩니다.
 
   ```python
-# 4.3
-# Define the Probe Function
-def osd_sink_pad_buffer_probe(pad, info, u_data):
-    gst_buffer=info.get_buffer()
+  # 4.3
+  # Define the Probe Function
+  def osd_sink_pad_buffer_probe(pad, info, u_data):
+      gst_buffer=info.get_buffer()
 
-    # Retrieve batch metadata from the gst_buffer
-    batch_meta=pyds.gst_buffer_get_nvds_batch_meta(hash(gst_buffer))
-    l_frame=batch_meta.frame_meta_list
-    while l_frame is not None:
+      # Retrieve batch metadata from the gst_buffer
+      batch_meta=pyds.gst_buffer_get_nvds_batch_meta(hash(gst_buffer))
+      l_frame=batch_meta.frame_meta_list
+      while l_frame is not None:
 
         # Initially set the tailgate indicator to False for each frame
         tailgate=False
