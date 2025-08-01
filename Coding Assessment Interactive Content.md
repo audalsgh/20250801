@@ -21,16 +21,16 @@
 4. 유일하게 <FIXME>를 벗어나서 수정한 문제. 교수님 자료에선 두번째 인자로 "convertor1"을 줬기에 따라했더니 성공함. 
 <img width="944" height="853" alt="image" src="https://github.com/user-attachments/assets/930f6875-017c-47ab-b115-2ffc56b89f23" />
 
-4.2 교수님 자료를 토대로 파이프라인 아키텍쳐 정의, 요소 추가, 요소 링크, 콜백 함수 정의. 
-- filesrc, h264parse, nvstreammux, nvinfer, nvdsosd, filesink 으로 요소를 생성했습니다.
-- width=1280, height=720, batch-size=1 은 Step1에서 얻은 영상 정보와 배치 크기 1을 사용합니다.
-- 콜백 함수 이름은 osd_sink_pad_buffer_probe 로 가정했습니다(다음 단계에서 구현).
+  4.2 교수님 자료를 토대로 파이프라인 아키텍쳐 정의, 요소 추가, 요소 링크, 콜백 함수 정의. 
+  - filesrc, h264parse, nvstreammux, nvinfer, nvdsosd, filesink 으로 요소를 생성했습니다.
+  - width=1280, height=720, batch-size=1 은 Step1에서 얻은 영상 정보와 배치 크기 1을 사용합니다.
+  - 콜백 함수 이름은 osd_sink_pad_buffer_probe 로 가정했습니다(다음 단계에서 구현).
 
-4.3 교수님 자료를 토대로 프로브함수 정의.
-- 첫 번째 <<<<FIXME>>>> → obj_meta.rect_params.width
-- 두 번째 <<<<FIXME>>>> → obj_bottom
-- 마지막 <<<<FIXME>>>> → tailgate
-이 셀을 실행하면 Probe 함수가 정의됩니다.
+  4.3 교수님 자료를 토대로 프로브함수 정의.
+  - 첫 번째 <<<<FIXME>>>> → obj_meta.rect_params.width
+  - 두 번째 <<<<FIXME>>>> → obj_bottom
+  - 마지막 <<<<FIXME>>>> → tailgate
+  이 셀을 실행하면 Probe 함수가 정의됩니다.
 
 5. 이유는 모르겠으나 예시 속 정답 5.0을 입력하니 맞음.
 <img width="764" height="293" alt="image" src="https://github.com/user-attachments/assets/71cfaae7-93d9-416e-8f54-64b2798736de" />
