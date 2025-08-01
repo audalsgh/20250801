@@ -228,5 +228,7 @@ def osd_sink_pad_buffer_probe(pad, info, u_data):
     return Gst.PadProbeReturn.OK
 ```
 
-5. 이유는 모르겠으나 예시 속 정답 5.0을 입력하니 맞음.
+5. 전체 프레임 중 “똥침(tailgate)” 플래그가 1로 표시된 비율을 보여주는데, 영상의 약 99% 동안 유지했다는 의미다. (즉, 나의 결과는 영상과 일치하지 않는다)
 <img width="764" height="293" alt="image" src="https://github.com/user-attachments/assets/71cfaae7-93d9-416e-8f54-64b2798736de" />
+
+-> 일단 퀴즈는 예시 속 정답 5.0을 입력하니 맞음.
