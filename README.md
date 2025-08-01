@@ -1,7 +1,7 @@
 # 30일차
 
 ## NVIDIA Building Real-Time Video AI Applications 구축하기 Certification
-[Building Real-Time Video AI Applications 정리는 7월 31일 리포지터리에](https://github.com/audalsgh/20250731/blob/main/Building%20Real-Time%20Video%20AI%20Applications%20%EC%A0%95%EB%A6%AC.md)
+[내용 정리는 7월 31일 리포지터리에](https://github.com/audalsgh/20250731/blob/main/Building%20Real-Time%20Video%20AI%20Applications%20%EC%A0%95%EB%A6%AC.md)
 
 [Building Real-Time Video AI Applications](https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-IV-01+V1&unit=block-v1:DLI+S-IV-01+V1+type@vertical+block@67d7c59f99074da4a57220c9dfbfc980)<br>
 [교수님의 Building Real-Time Video AI Applications 정리본](https://docs.google.com/document/d/1WUtXecVecKDd5b2omhBJMx-FiIq2zsVs_Fsetb5rdcE/edit?tab=t.0)
